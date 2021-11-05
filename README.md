@@ -51,7 +51,7 @@ $ npm run start:prod
 
 ## Stay in touch
 
-- Author - [João Raposo](joaopedroraposo@gmail.com)
+- Author - [João Raposo](mailto:joaopedroraposo@gmail.com)
 
 ## License
 
