@@ -13,7 +13,7 @@ import { CityWeatherResponseDto } from './dtos/city-weather-response.dto';
 import { CityDto } from './dtos/city.dto';
 import { Logger } from 'winston';
 
-@Controller()
+@Controller('v1/weather-api')
 export class AppController {
   constructor(
     private readonly appService: AppService,

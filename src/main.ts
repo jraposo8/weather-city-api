@@ -26,6 +26,8 @@ async function bootstrap() {
   logger.log(
     `Serving Open API documentation at http://localhost:3000/${swaggerPath}`,
   );
+  // Enable CORS
+  app.enableCors();
 
   await app.listen(3000);
 }
